@@ -61,6 +61,15 @@ function comprarCosas() {
   }
 }
 comprarCosas();
+
+function calcularTotal(carrito) {
+  const total = carrito.reduce((acumulador, producto) => acumulador + producto.precio, 0);
+  return total;
+}
+
+let totalCarrito = calcularTotal(carrito);
+console.log("Total del carrito: $" + totalCarrito);
+
 console.log("Carrito de compras:", carrito);
 for(c of carrito){
   let bienvenida = document.querySelector("#bienvenida")
@@ -70,8 +79,9 @@ for(c of carrito){
   `
   bienvenida.insertBefore(contenedor, bienvenida.children[2])
 }
-
-
-
+let bienvenida = document.querySelector("#bienvenida")
+let mostrarTotal = document.createElement("h3")
+mostrarTotal.innerHTML =`Su total es: $${totalCarrito}`
+bienvenida.appendChild(mostrarTotal);
 
 
