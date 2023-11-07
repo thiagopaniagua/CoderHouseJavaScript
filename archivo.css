@@ -1,3 +1,41 @@
-.container #bienvenida{
+.card img{
+    width: 100% ;
+    height: 200px;
+}
+.container{
+    margin: 0 auto;
+}
+.card-group{
+    margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.modal-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    background-color: rgba(77, 106, 233, 0.6); /* Fondo semitransparente */
+    backdrop-filter: blur(5px);
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+}
+.col-4 img{
+    width: 200px;
+    height: 150px;
+}
+.col-4{
+    display: flex;
+}
+.btn-close{
+    margin-left: 10px;
+}
+.total-content{
+    text-align: center;
+}
+#mostrarCarrito{
+    cursor: pointer;
 }
