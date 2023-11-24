@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "nombre": "sorrentinos",
+      "precio":2200,
+      "img": "https://www.recetas-argentinas.com/base/stock/Recipe/260-image/260-image_web.jpg.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "tallarines",
+      "precio":2200,
+      "img":"https://i.blogs.es/eae98f/tallarines-cremosos-queso-y-miso/840_560.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "canelones",
+      "precio":2200,
+      "img": "https://www.paulinacocina.net/wp-content/uploads/2023/08/receta-de-canelones-de-carne-e1692042543650.jpg"
+    }
+  ]

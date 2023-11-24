@@ -1,41 +1,77 @@
+body{
+    background-image: url('https://img.freepik.com/fotos-premium/comercio-electronico_890746-30776.jpg?size=626&ext=jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.navbar{
+    background-color: aliceblue;
+}
+
+.container{
+    margin: 0 auto;
+    align-items: center;
+}
 .card img{
     width: 100% ;
     height: 200px;
 }
 .container{
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 .card-group{
     margin: 0 auto;
     text-align: center;
     justify-content: center;
-    padding: 50px;
+    
+}
+.divTienda{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    
+}
+.card{
+    margin: 0 auto;
+    
 }
 
-.modal-container{
-    width: 80%;
-    margin: 0 10%;
-    max-height: 88vh;
-    background-color: rgba(77, 106, 233, 0.6); /* Fondo semitransparente */
-    backdrop-filter: blur(5px);
-    position: fixed;
-    overflow: auto;
-    z-index: 9;
-    top: 12vh;
+.pastimg img{
+    width: 90%;
+    height: 90%;
 }
-.col-4 img{
-    width: 200px;
-    height: 150px;
+.contcarrito{
+    margin: 0 auto;
+
 }
-.col-4{
-    display: flex;
+.col-4 p{
+    padding-top: 10px;
 }
-.btn-close{
-    margin-left: 10px;
+.col-4 h3{
+    padding-left: 10px;
 }
 .total-content{
     text-align: center;
 }
-#mostrarCarrito{
-    cursor: pointer;
+
+.final p{
+    padding-right: 10px;
+}
+.comprar-btn{
+ border-color: rgb(139, 98, 252);
+ background-color: rgb(139, 98, 252);
+}
+.comprar-btn:hover{
+    background-color: rgb(126, 103, 190);
+    border-color: rgb(126, 103, 190);
+}
+.compraDef{
+    border-color: rgb(139, 98, 252);
+ background-color: rgb(139, 98, 252);
+}
+.compraDef:hover{
+    background-color: rgb(126, 103, 190);
+    border-color: rgb(126, 103, 190);
 }
